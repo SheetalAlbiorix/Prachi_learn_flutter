@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tasks/pages/datatype_task.dart';
 
 class TaskPage extends StatelessWidget {
   final List<String> tasks = [
@@ -18,10 +17,6 @@ class TaskPage extends StatelessWidget {
           return ListTile(
             title: Text(tasks[index]),
             onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => DataTypeTask()),
-              );
             },
           );
         },
