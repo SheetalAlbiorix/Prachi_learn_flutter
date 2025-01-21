@@ -35,7 +35,7 @@ class _DataTypeTaskState extends State<DataTypeTask> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('All Data Types with Map'),
+        title: Text('Data Types'),
       ),
       body: Card(
         margin: const EdgeInsets.all(16.0),
