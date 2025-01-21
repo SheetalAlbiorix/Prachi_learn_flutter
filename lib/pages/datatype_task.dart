@@ -11,11 +11,22 @@ class _DataTypeTaskState extends State<DataTypeTask> {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController phoneController = TextEditingController();
 
-  bool enrolled = false;
+  Map<String, dynamic> studentData = {
+    'name': '',
+    'age': '',
+    'email': '',
+    'phone': '',
+    'enrolled': false,
+  };
+
   bool submitted = false;
 
   void submitForm() {
     setState(() {
+      studentData['name'] = nameController.text;
+      studentData['age'] = ageController.text;
+      studentData['email'] = emailController.text;
+      studentData['phone'] = phoneController.text;
       submitted = true;
     });
   }
@@ -24,11 +35,12 @@ class _DataTypeTaskState extends State<DataTypeTask> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('All Data Types'),
+        title: Text('All Data Types with Map'),
       ),
       body: Card(
         margin: const EdgeInsets.all(16.0),
-        child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -71,10 +83,10 @@ class _DataTypeTaskState extends State<DataTypeTask> {
                 children: [
                   Text('Enrolled: ', style: TextStyle(fontSize: 16)),
                   Switch(
-                    value: enrolled,
+                    value: studentData['enrolled'],
                     onChanged: (value) {
                       setState(() {
-                        enrolled = value;
+                        studentData['enrolled'] = value;
                       });
                     },
                   ),
@@ -91,15 +103,15 @@ class _DataTypeTaskState extends State<DataTypeTask> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Name: ${nameController.text}',
+                      Text('Name: ${studentData['name']}',
                           style: TextStyle(fontSize: 16)),
-                      Text('Age: ${ageController.text}',
+                      Text('Age: ${studentData['age']}',
                           style: TextStyle(fontSize: 16)),
-                      Text('Email: ${emailController.text}',
+                      Text('Email: ${studentData['email']}',
                           style: TextStyle(fontSize: 16)),
-                      Text('Phone: ${phoneController.text}',
+                      Text('Phone: ${studentData['phone']}',
                           style: TextStyle(fontSize: 16)),
-                      Text('Enrolled: $enrolled',
+                      Text('Enrolled: ${studentData['enrolled']}',
                           style: TextStyle(fontSize: 16)),
                       SizedBox(height: 10.0),
                     ],
