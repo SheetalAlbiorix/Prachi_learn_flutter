@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks/pages/Operator.dart';
-import 'package:flutter_tasks/pages/index_page.dart';
 
 class TaskPage extends StatelessWidget {
   final List<String> tasks = [

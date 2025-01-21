@@ -48,26 +48,62 @@ class OperatorsPage extends StatelessWidget {
     b!=a: $h
     ''';
 
-    //TypeTest Operation
-    String A = 'GFG';
-    double B = 3.3;
+    //type test operations
+    var isInteger = a is int;
+    var isNotDouble = b is! double;
 
-    String TypetestResult = '''
-    TypeTest Operations:    
+    String typeTestResult = '''
+    Type Test Operations:    
 
-    A is String = $A;
-    B is ! int = $B;
+    value: a=$a, b=$b 
+    a is int: $isInteger
+    b is not double: $isNotDouble
+    ''';
+
+    //Bitwise Operators
+    var C = a & b;
+    var D = a | b;
+    var E = a ^ b;
+    var F = ~a;
+    var G = a << b;
+    var H = a >> b;
+    var I = -a >>> b;
+
+    String BitwiseResult = '''
+    Bitwise Operations: 
+
+    a & b: $C
+    a | b: $D
+    a ^ b: $E
+    ~a: $F
+    a << b: $G
+    a >> b: $H
+    -a >>> b: $I
+    ''';
+
+    //logical operator
+    bool P = a > 10 && b < 10;
+    bool Q = a > 10 || b < 10;
+    bool R = !(a > 10);
+
+    String LogicalResult = '''
+    Logical Operations:   
+
+    Using AND: $P
+    using OR: $Q
+    using NOT: $R
     ''';
 
     return Scaffold(
       appBar: AppBar(
         title: Text('Operators Page'),
       ),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16),
         child: Column(
           children: [
             Card(
+              color: Colors.blue.shade50,
               margin: EdgeInsets.symmetric(vertical: 8),
               child: Padding(
                 padding: EdgeInsets.all(16),
@@ -78,6 +114,7 @@ class OperatorsPage extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.green.shade50,
               margin: EdgeInsets.symmetric(vertical: 8),
               child: Padding(
                 padding: EdgeInsets.all(16),
@@ -88,11 +125,34 @@ class OperatorsPage extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.pink.shade50,
               margin: EdgeInsets.symmetric(vertical: 8),
               child: Padding(
                 padding: EdgeInsets.all(16),
                 child: Text(
-                  TypetestResult,
+                  typeTestResult,
+                  style: TextStyle(fontSize: 16, fontFamily: 'monospace'),
+                ),
+              ),
+            ),
+            Card(
+              color: Colors.yellow.shade50,
+              margin: EdgeInsets.symmetric(vertical: 8),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Text(
+                  LogicalResult,
+                  style: TextStyle(fontSize: 16, fontFamily: 'monospace'),
+                ),
+              ),
+            ),
+            Card(
+              color: Colors.red.shade50,
+              margin: EdgeInsets.symmetric(vertical: 8),
+              child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Text(
+                  BitwiseResult,
                   style: TextStyle(fontSize: 16, fontFamily: 'monospace'),
                 ),
               ),
