@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tasks/pages/index_page.dart';
+import 'package:flutter_tasks/pages/datatype_task.dart';
 
 void main() {
   runApp(MyApp());

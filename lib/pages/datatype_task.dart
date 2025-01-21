@@ -32,7 +32,8 @@ class _DataTypeTaskState extends State<DataTypeTask> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Student Information:', style: TextStyle(fontSize: 20)),
+              Text(' \u2665 Student Information:',
+                  style: TextStyle(fontSize: 20)),
               SizedBox(height: 15.0),
               TextField(
                 controller: nameController,
