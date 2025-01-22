@@ -135,8 +135,8 @@ $output
 
     K
       ..add(4)
-      ..removeAt(0);
-    // ..insert(0, 0);
+      ..remove(0)
+      ..insert(0, 0);
 
     String cascadeResult = '''
 Cascade:
