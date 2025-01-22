@@ -141,8 +141,8 @@ $output
     String cascadeResult = '''
 Cascade:
 
-Initial list: [1, 2, 3]
-$K
+Initial value: [1, 2, 3]
+cascade value: $K
 ''';
 
     return Scaffold(
