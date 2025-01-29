@@ -20,10 +20,10 @@ Arithmetic:
 
 a= $a, b= $b
 Sum: $sum
-Difference: $difference
+Diff: $difference
 Negation: $negation
 Product: $product
-Division: $division
+Division:$division
 Quotient: $quotient
 Remainder: $remainder
 ''';
@@ -96,32 +96,51 @@ Using NOT: $R
 ''';
 
     // Assignment Operators
-    var x = a;
-    x += b;
-    var y = a;
-    y -= b;
-    var z = a;
-    z *= b;
-    var w = b;
-    w ~/= a;
-    var v = b;
-    v %= a;
+    var X = 20;
+    var Y = 10;
+    var p = X;
+    p += Y;
+    var q = X;
+    q -= Y;
+    var r = X;
+    r *= Y;
+    var s = Y;
+    s ~/= X;
+    var t = X;
+    t %= Y;
+    var u = X;
+    u <<= Y;
+    var v = X;
+    v >>= Y;
+    // var w = a;
+    // w /= b;
+    var x = Y;
+    x &= X;
+    var y = Y;
+    y ^= X;
+    var z = Y;
+    z |= X;
 
     String assignmentResult = '''
 Assignment:
 
-a=$a, b=$b
-x += b: $x
-y -= b: $y
-z *= b: $z
-w ~/= a: $w
-v %= a: $v
+a=$X, b=$Y
+p += b: $p
+q -= b: $q
+r *= b: $r
+s ~/= a: $s
+t %= a: $t
+u <<= b: $u
+v >>= b: $v
+x &= a: $x
+y ^= a: $y
+z |= a: $z
 ''';
 
 //Conditional Operator
-    var X = 30;
+    var K = 50;
     var output =
-        X > 42 ? "value greater than 10" : "value lesser than equal to 30";
+        K > 42 ? "value greater than 30" : "value lesser than equal to 30";
 
     String conditionalResult = '''
 Conditional:
@@ -131,9 +150,9 @@ $output
 ''';
 
 // Cascade Operators
-    var K = <int>[1, 2, 3];
+    var L = <int>[1, 2, 3];
 
-    K
+    L
       ..add(4)
       ..remove(0)
       ..insert(0, 0);
@@ -142,7 +161,7 @@ $output
 Cascade:
 
 Initial value: [1, 2, 3]
-cascade value: $K
+cascade value: $L
 ''';
 
     return Scaffold(
@@ -162,9 +181,9 @@ cascade value: $K
                     children: [
                       _buildCard(Colors.blue.shade100, arithmeticResult),
                       SizedBox(height: 16),
-                      _buildCard(Colors.green.shade100, assignmentResult),
+                      _buildCard(Colors.green.shade100, relationalResult),
                       SizedBox(height: 16),
-                      _buildCard(Colors.pink.shade100, typeTestResult),
+                      _buildCard(Colors.pink.shade100, logicalResult),
                       SizedBox(height: 16),
                       _buildCard(Colors.orange.shade100, conditionalResult),
                     ],
@@ -175,11 +194,11 @@ cascade value: $K
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      _buildCard(Colors.yellow.shade100, relationalResult),
+                      _buildCard(Colors.yellow.shade100, assignmentResult),
                       SizedBox(height: 16),
                       _buildCard(Colors.red.shade100, bitwiseResult),
                       SizedBox(height: 16),
-                      _buildCard(Colors.purple.shade100, logicalResult),
+                      _buildCard(Colors.purple.shade100, typeTestResult),
                       SizedBox(height: 16),
                       _buildCard(Colors.lightBlue.shade100, cascadeResult),
                     ],
