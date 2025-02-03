@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 class TaskPage extends StatelessWidget {
   final List<String> tasks = [
     'Task 1: All Data Types',
+    'Task 2: Operators Page',
+    'Task 3: GridView Task',
+    'Task 4: CarType Task',
   ];
 
   @override
@@ -14,10 +17,13 @@ class TaskPage extends StatelessWidget {
       body: ListView.builder(
         itemCount: tasks.length,
         itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(tasks[index]),
-            onTap: () {
-            },
+          return Card(
+            margin: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            elevation: 4.0,
+            child: ListTile(
+              title: Text(tasks[index]),
+              onTap: () {},
+            ),
           );
         },
       ),
