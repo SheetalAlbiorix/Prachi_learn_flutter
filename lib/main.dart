@@ -53,7 +53,10 @@ class MainPage extends StatelessWidget {
         title: Text('Home Page'),
       ),
       body: Center(
-        child: Icon(Icons.person, size: 60),
+        child: Icon(
+          Icons.person,
+          size: 60,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
