@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tasks/pages/SwitchTask.dart';
 
 class TaskPage extends StatelessWidget {
   final List<String> tasks = [
@@ -6,6 +7,7 @@ class TaskPage extends StatelessWidget {
     'Task 2: Operators Page',
     'Task 3: GridView Task',
     'Task 4: CarType Task',
+    'Task 5: Switch Task',
   ];
 
   @override
@@ -22,7 +24,14 @@ class TaskPage extends StatelessWidget {
             elevation: 4.0,
             child: ListTile(
               title: Text(tasks[index]),
-              onTap: () {},
+              onTap: () {
+                if (index == 4) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => EmployeeForm()),
+                  );
+                }
+              },
             ),
           );
         },
