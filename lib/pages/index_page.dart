@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tasks/pages/getDataFromTwoJSON.dart';
 
 class TaskPage extends StatelessWidget {
   final List<String> tasks = [
@@ -26,12 +27,12 @@ class TaskPage extends StatelessWidget {
             child: ListTile(
               title: Text(tasks[index]),
               onTap: () {
-                // if (index == 6) {
-                //   Navigator.push(
-                //     context,
-                //     MaterialPageRoute(builder: (context) => MyEmployeeApp()),
-                //   );
-                // }
+                if (index == 6) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MyEmployeeApp()),
+                  );
+                }
               },
             ),
           );

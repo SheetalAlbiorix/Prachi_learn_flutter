@@ -10,7 +10,9 @@
             "location": "Ahmedabad",
             "email": "allencev.albiorix@gmail.com",
             "mobile": "+91-7990116270",
-            "team": "Allence"
+            "team": "Allence",
+            "technologies": ["Flutter"],
+            "hometown": "Ahmedabad"
             
         },
         {
@@ -23,7 +25,9 @@
             "location": "Ahmedabad",
             "email": "anantp.albiorix@gmail.com",
             "mobile": "+91-9428976681",
-            "team": "Sazzadhusen"
+            "team": "Sazzadhusen",
+            "technologies": ["IOS"],
+            "hometown": "Nadiad"
         },
         {
             "id": 3,
@@ -34,7 +38,9 @@
             "designation": "Trainee Software Engineer",
             "location": "Ahmedabad",
             "email": "chiragg.albiorix@gmail.com",
-            "mobile": "+91-9978431633"
+            "mobile": "+91-9978431633",
+            "technologies": ["Flutter"],
+            "hometown": "Limbdi, surendranagar"
         },
         {
             "id": 4,
@@ -46,7 +52,9 @@
             "location": "Ahmedabad",
             "email": "himanshuj.albiorix@gmail.com",
             "mobile": "+91-9714160383",
-            "team": "Sazzadhusen"
+            "team": "Sazzadhusen",
+            "technologies": ["React Native"],
+            "hometown": "Surat"
         },
         {
             "id": 5,
@@ -57,7 +65,9 @@
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "jhanvip.albiorix@gmail.com",
-            "mobile": "+91-9106849593"
+            "mobile": "+91-9106849593",
+            "technologies": ["Flutter"],
+            "hometown": "Gondal, Rajkot"
         },
         {
             "id": 6,
@@ -69,7 +79,9 @@
             "location": "Ahmedabad",
             "email": "khushp.albiorix@gmail.com",
             "mobile": "+91-9429108545",
-            "team":"Sohan"
+            "team":"Sohan",
+            "technologies": ["Android", "Flutter","KMM"],
+            "hometown": "Bhavnagar"
         },
         {
             "id": 7,
@@ -80,7 +92,9 @@
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "krishnab.albiorix@gmail.com",
-            "mobile": "+91-9879465832"
+            "mobile": "+91-9879465832",
+            "technologies": ["React Native"],
+            "hometown": "Morbi"
         },
         {
             "id": 8,
@@ -92,7 +106,9 @@
             "location": "Ahmedabad",
             "email": "milenniyamm.albiorix@gmail.com",
             "mobile": "+91-88497968951",
-            "team": "Allence"
+            "team": "Allence",
+            "technologies": ["Flutter", "Android"],
+            "hometown": "Ahmedabad"
         },
         {
             "id": 9,
@@ -104,7 +120,9 @@
             "location": "Ahmedabad",
             "email": "palakr.albiorix@gmail.com",
             "mobile": "+91-8320821187",
-            "team": "Allence"
+            "team": "Allence",
+            "technologies": ["Flutter","Android"],
+            "hometown": "Ahmedabad"
         },
         {
             "id": 10,
@@ -115,7 +133,9 @@
             "designation": "Trainee Software Developer",
             "location": "Ahmedabad",
             "email": "prachik.albiorix@gmail.com",
-            "mobile": "+91-7862020227"
+            "mobile": "+91-7862020227",
+            "technologies": ["Flutter"],
+            "hometown": "Deesa"
         },
         {
             "id": 11,
@@ -127,7 +147,9 @@
             "location": "Ahmedabad",
             "email": "rajh.albiorix@gmail.com",
             "mobile": "+91-9409136777",
-            "team":"Sohan"
+            "team":"Sohan",
+            "technologies": ["Flutter","Android","KMM"],
+            "hometown": "Ahmedabad"
         },
         {
             "id": 12,
@@ -138,7 +160,10 @@
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "sarveshs.albiorix@gmail.com",
-            "mobile": "+91-9409684668"
+            "mobile": "+91-9409684668",
+            "technologies": [""],
+            "hometown": ""
+            
         },
         {
             "id": 13,
@@ -150,7 +175,9 @@
             "location": "Ahmedabad",
             "email": "sazzadhusen.albiorix@gmail.com",
             "mobile": "+91-9925342734",
-            "team": "Sazzadhusen"
+            "team": "Sazzadhusen",
+            "technologies": ["IOS","React Native"],
+            "hometown": "Modasa"
         },
         {
             "id": 14,
@@ -161,7 +188,9 @@
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "shashanka.albiorix@gmail.com",
-            "mobile": "+91-9104077165"
+            "mobile": "+91-9104077165",
+            "technologies": ["Flutter","Android"],
+            "hometown": "Ratnagiri"
         },
         {
             "id": 15,
@@ -172,7 +201,9 @@
             "designation": "Project Manager",
             "location": "Ahmedabad",
             "email": "sheetal.albiorix@gmail.com",
-            "mobile": "+91-9909789956"
+            "mobile": "+91-9909789956",
+            "technologies": ["Flutter","Android","IOS","KMM","React Native"],
+            "hometown": "Surat"
         },
         {
             "id": 16,
@@ -184,7 +215,10 @@
             "location": "Ahmedabad",
             "email": "sohanb.albiorix@gmail.com",
             "mobile": "+91-9662935949",
-            "team":"Sohan"
+            "team":"Sohan",
+            "technologies": ["Flutter","Android","IOS","KMM","React Native"],
+            "hometown": "Jamnagar"
         }
     ]
 }
+
