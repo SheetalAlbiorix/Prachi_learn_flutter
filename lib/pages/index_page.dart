@@ -6,6 +6,9 @@ class TaskPage extends StatelessWidget {
     'Task 2: Operators Page',
     'Task 3: GridView Task',
     'Task 4: CarType Task',
+    'Task 5: Switch Task',
+    'Task 6: Data From JSON Task',
+    'Task 7: Data From Two JSON Task',
   ];
 
   @override
@@ -22,7 +25,14 @@ class TaskPage extends StatelessWidget {
             elevation: 4.0,
             child: ListTile(
               title: Text(tasks[index]),
-              onTap: () {},
+              onTap: () {
+                // if (index == 6) {
+                //   Navigator.push(
+                //     context,
+                //     MaterialPageRoute(builder: (context) => MyEmployeeApp()),
+                //   );
+                // }
+              },
             ),
           );
         },
