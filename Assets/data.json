@@ -1,0 +1,190 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "employeeID": "AT0050",
+            "firstName": "Allence",
+            "lastName": "Vakhariya",
+            "photoUrl": "Assets/Images/allence.jpg",
+            "designation": "Flutter Developer",
+            "location": "Ahmedabad",
+            "email": "allencev.albiorix@gmail.com",
+            "mobile": "+91-7990116270",
+            "team": "Allence"
+            
+        },
+        {
+            "id": 2,
+            "employeeID": "AT167",
+            "firstName": "Anant",
+            "lastName": "Prajapati",
+            "photoUrl": "Assets/Images/Anant.jpeg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "anantp.albiorix@gmail.com",
+            "mobile": "+91-9428976681",
+            "team": "Sazzadhusen"
+        },
+        {
+            "id": 3,
+            "employeeID": "AT191",
+            "firstName": "Chirag",
+            "lastName": "Gohil",
+            "photoUrl": "Assets/Images/Chirag.jpg",
+            "designation": "Trainee Software Engineer",
+            "location": "Ahmedabad",
+            "email": "chiragg.albiorix@gmail.com",
+            "mobile": "+91-9978431633"
+        },
+        {
+            "id": 4,
+            "employeeID": "AT165",
+            "firstName": "Himanshu",
+            "lastName": "Jawale",
+            "photoUrl": "Assets/Images/Himanshu.jpg",
+            "designation": "Trainee Software Engineer",
+            "location": "Ahmedabad",
+            "email": "himanshuj.albiorix@gmail.com",
+            "mobile": "+91-9714160383",
+            "team": "Sazzadhusen"
+        },
+        {
+            "id": 5,
+            "employeeID": "AT0078",
+            "firstName": "Jhanvi",
+            "lastName": "Pathar",
+            "photoUrl": "Assets/Images/Jhanvi.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "jhanvip.albiorix@gmail.com",
+            "mobile": "+91-9106849593"
+        },
+        {
+            "id": 6,
+            "employeeID": "AT0122",
+            "firstName": "Khush",
+            "lastName": "Pajwani",
+            "photoUrl": "Assets/Images/Khush.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "khushp.albiorix@gmail.com",
+            "mobile": "+91-9429108545",
+            "team":"Sohan"
+        },
+        {
+            "id": 7,
+            "employeeID": "AT183",
+            "firstName": "Krishna",
+            "lastName": "Barasara",
+            "photoUrl": "Assets/Images/krishna.jpeg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "krishnab.albiorix@gmail.com",
+            "mobile": "+91-9879465832"
+        },
+        {
+            "id": 8,
+            "employeeID": "AT0067",
+            "firstName": "Mileniyam",
+            "lastName": "Modi",
+            "photoUrl": "Assets/Images/Mileniyam.jpg",
+            "designation": "Flutter Developer",
+            "location": "Ahmedabad",
+            "email": "milenniyamm.albiorix@gmail.com",
+            "mobile": "+91-88497968951",
+            "team": "Allence"
+        },
+        {
+            "id": 9,
+            "employeeID": "AT0119",
+            "firstName": "Palak",
+            "lastName": "Ramani",
+            "photoUrl": "Assets/Images/Palak.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "palakr.albiorix@gmail.com",
+            "mobile": "+91-8320821187",
+            "team": "Allence"
+        },
+        {
+            "id": 10,
+            "employeeID": "AT193",
+            "firstName": "Prachi",
+            "lastName": "Kotak",
+            "photoUrl": "Assets/Images/prachi.jpeg",
+            "designation": "Trainee Software Developer",
+            "location": "Ahmedabad",
+            "email": "prachik.albiorix@gmail.com",
+            "mobile": "+91-7862020227"
+        },
+        {
+            "id": 11,
+            "employeeID": "AT160",
+            "firstName": "Raj",
+            "lastName": "Shah",
+            "photoUrl": "Assets/Images/Raj.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "rajh.albiorix@gmail.com",
+            "mobile": "+91-9409136777",
+            "team":"Sohan"
+        },
+        {
+            "id": 12,
+            "employeeID": "AT175",
+            "firstName": "Sarvesh",
+            "lastName": "Savaliya",
+            "photoUrl": "Assets/Images/Sarvesh.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "sarveshs.albiorix@gmail.com",
+            "mobile": "+91-9409684668"
+        },
+        {
+            "id": 13,
+            "employeeID": "AT0022",
+            "firstName": "Sazzadhusen",
+            "lastName": "Iproliya",
+            "photoUrl": "Assets/Images/Sazzadhusen.jpg",
+            "designation": "Technical Team Lead(Mobile & Web)",
+            "location": "Ahmedabad",
+            "email": "sazzadhusen.albiorix@gmail.com",
+            "mobile": "+91-9925342734",
+            "team": "Sazzadhusen"
+        },
+        {
+            "id": 14,
+            "employeeID": "AT0121",
+            "firstName": "Shashank",
+            "lastName": "Adhatrao",
+            "photoUrl": "Assets/Images/Shashank.jpg",
+            "designation": "Software Engineer",
+            "location": "Ahmedabad",
+            "email": "shashanka.albiorix@gmail.com",
+            "mobile": "+91-9104077165"
+        },
+        {
+            "id": 15,
+            "employeeID": "AT0007",
+            "firstName": "Sheetal",
+            "lastName": "Rathod",
+            "photoUrl": "Assets/Images/sheetal mam.jpg",
+            "designation": "Project Manager",
+            "location": "Ahmedabad",
+            "email": "sheetal.albiorix@gmail.com",
+            "mobile": "+91-9909789956"
+        },
+        {
+            "id": 16,
+            "employeeID": "AT0073",
+            "firstName": "Sohan",
+            "lastName": "Bhadra",
+            "photoUrl": "Assets/Images/Sohan.jpg",
+            "designation": "Software Engineer(Android/Flutter)",
+            "location": "Ahmedabad",
+            "email": "sohanb.albiorix@gmail.com",
+            "mobile": "+91-9662935949",
+            "team":"Sohan"
+        }
+    ]
+}
