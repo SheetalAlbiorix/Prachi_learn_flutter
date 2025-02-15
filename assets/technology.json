@@ -1,11 +1,22 @@
-{
-    "technologies": {
-        "Flutter": ["AT0050", "AT191","AT0078","AT0122","AT0067","AT0119","AT193","AT160","AT0121","AT0007","AT0073"],
-        "Android": ["AT0122","AT0067","AT0119","AT160","AT0121","AT0007","AT0073"],
-        "IOS": ["AT167","AT0022","AT0007","AT0073"],
-        "KMM": ["AT0122","AT160","AT0007","AT0073"],
-        "React Native": ["AT165","AT183","AT0022","AT0007","AT0073"]  
+[
+    {
+      "technologyId": 1,
+      "name": "Android"
+    },
+    {
+      "technologyId": 2,
+      "name": "IOS"
+    },
+    {
+      "technologyId": 3,
+      "name": "Flutter"
+    },
+    {
+      "technologyId": 4,
+      "name": "React Native"
+    },
+    {
+      "technologyId": 5,
+      "name": "KMM"
     }
-}
-
-
+  ]

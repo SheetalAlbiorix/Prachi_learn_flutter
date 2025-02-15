@@ -5,13 +5,13 @@
             "employeeID": "AT0050",
             "firstName": "Allence",
             "lastName": "Vakhariya",
-            "photoUrl": "assets/Images/allence.jpg",
+            "photoUrl": "assets/images/allence.jpg",
             "designation": "Flutter Developer",
             "location": "Ahmedabad",
             "email": "allencev.albiorix@gmail.com",
             "mobile": "+91-7990116270",
             "team": "Allence",
-            "technologies": ["Flutter"],
+            "technologies": [3],
             "hometown": "Ahmedabad"
             
         },
@@ -20,13 +20,13 @@
             "employeeID": "AT167",
             "firstName": "Anant",
             "lastName": "Prajapati",
-            "photoUrl": "assets/Images/Anant.jpeg",
+            "photoUrl": "assets/images/Anant.jpeg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "anantp.albiorix@gmail.com",
             "mobile": "+91-9428976681",
             "team": "Sazzadhusen",
-            "technologies": ["IOS"],
+            "technologies": [2],
             "hometown": "Nadiad"
         },
         {
@@ -34,26 +34,26 @@
             "employeeID": "AT191",
             "firstName": "Chirag",
             "lastName": "Gohil",
-            "photoUrl": "assets/Images/Chirag.jpg",
-            "designation": "Trainee Software Engineer",
+            "photoUrl": "assets/images/Chirag.jpg",
+            "designation": "Trainee Software Developer",
             "location": "Ahmedabad",
             "email": "chiragg.albiorix@gmail.com",
             "mobile": "+91-9978431633",
-            "technologies": ["Flutter"],
-            "hometown": "Limbdi, surendranagar"
+            "technologies": [3],
+            "hometown": "Limbdi,surendranagar"
         },
         {
             "id": 4,
             "employeeID": "AT165",
             "firstName": "Himanshu",
             "lastName": "Jawale",
-            "photoUrl": "assets/Images/Himanshu.jpg",
-            "designation": "Trainee Software Engineer",
+            "photoUrl": "assets/images/Himanshu.jpg",
+            "designation": "Trainee Software Developer",
             "location": "Ahmedabad",
             "email": "himanshuj.albiorix@gmail.com",
             "mobile": "+91-9714160383",
             "team": "Sazzadhusen",
-            "technologies": ["React Native"],
+            "technologies": [4],
             "hometown": "Surat"
         },
         {
@@ -61,26 +61,26 @@
             "employeeID": "AT0078",
             "firstName": "Jhanvi",
             "lastName": "Pathar",
-            "photoUrl": "assets/Images/Jhanvi.jpg",
+            "photoUrl": "assets/images/Jhanvi.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "jhanvip.albiorix@gmail.com",
             "mobile": "+91-9106849593",
-            "technologies": ["Flutter"],
-            "hometown": "Gondal, Rajkot"
+            "technologies": [3],
+            "hometown": "Gondal,Rajkot"
         },
         {
             "id": 6,
             "employeeID": "AT0122",
             "firstName": "Khush",
             "lastName": "Pajwani",
-            "photoUrl": "assets/Images/Khush.jpg",
+            "photoUrl": "assets/images/Khush.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "khushp.albiorix@gmail.com",
             "mobile": "+91-9429108545",
             "team":"Sohan",
-            "technologies": ["Android", "Flutter","KMM"],
+            "technologies": [1,3,5],
             "hometown": "Bhavnagar"
         },
         {
@@ -88,12 +88,12 @@
             "employeeID": "AT183",
             "firstName": "Krishna",
             "lastName": "Barasara",
-            "photoUrl": "assets/Images/krishna.jpeg",
+            "photoUrl": "assets/images/krishna.jpeg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "krishnab.albiorix@gmail.com",
             "mobile": "+91-9879465832",
-            "technologies": ["React Native"],
+            "technologies": [4],
             "hometown": "Morbi"
         },
         {
@@ -101,13 +101,13 @@
             "employeeID": "AT0067",
             "firstName": "Mileniyam",
             "lastName": "Modi",
-            "photoUrl": "assets/Images/Mileniyam.jpg",
+            "photoUrl": "assets/images/Mileniyam.jpg",
             "designation": "Flutter Developer",
             "location": "Ahmedabad",
             "email": "milenniyamm.albiorix@gmail.com",
             "mobile": "+91-88497968951",
             "team": "Allence",
-            "technologies": ["Flutter", "Android"],
+            "technologies": [3, 1],
             "hometown": "Ahmedabad"
         },
         {
@@ -115,13 +115,13 @@
             "employeeID": "AT0119",
             "firstName": "Palak",
             "lastName": "Ramani",
-            "photoUrl": "assets/Images/Palak.jpg",
+            "photoUrl": "assets/images/Palak.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "palakr.albiorix@gmail.com",
             "mobile": "+91-8320821187",
             "team": "Allence",
-            "technologies": ["Flutter","Android"],
+            "technologies": [3,1],
             "hometown": "Ahmedabad"
         },
         {
@@ -129,12 +129,12 @@
             "employeeID": "AT193",
             "firstName": "Prachi",
             "lastName": "Kotak",
-            "photoUrl": "assets/Images/prachi.jpeg",
+            "photoUrl": "assets/images/prachi.jpeg",
             "designation": "Trainee Software Developer",
             "location": "Ahmedabad",
             "email": "prachik.albiorix@gmail.com",
             "mobile": "+91-7862020227",
-            "technologies": ["Flutter"],
+            "technologies": [3],
             "hometown": "Deesa"
         },
         {
@@ -142,13 +142,13 @@
             "employeeID": "AT160",
             "firstName": "Raj",
             "lastName": "Shah",
-            "photoUrl": "assets/Images/Raj.jpg",
+            "photoUrl": "assets/images/Raj.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "rajh.albiorix@gmail.com",
             "mobile": "+91-9409136777",
             "team":"Sohan",
-            "technologies": ["Flutter","Android","KMM"],
+            "technologies": [3,1,5],
             "hometown": "Ahmedabad"
         },
         {
@@ -156,13 +156,13 @@
             "employeeID": "AT175",
             "firstName": "Sarvesh",
             "lastName": "Savaliya",
-            "photoUrl": "assets/Images/Sarvesh.jpg",
+            "photoUrl": "assets/images/Sarvesh.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "sarveshs.albiorix@gmail.com",
             "mobile": "+91-9409684668",
-            "technologies": [""],
-            "hometown": ""
+            "technologies": [4],
+            "hometown": "Bhavnagar"
             
         },
         {
@@ -170,13 +170,13 @@
             "employeeID": "AT0022",
             "firstName": "Sazzadhusen",
             "lastName": "Iproliya",
-            "photoUrl": "assets/Images/Sazzadhusen.jpg",
-            "designation": "Technical Team Lead(Mobile & Web)",
+            "photoUrl": "assets/images/Sazzadhusen.jpg",
+            "designation": "Technical Team Lead",
             "location": "Ahmedabad",
             "email": "sazzadhusen.albiorix@gmail.com",
             "mobile": "+91-9925342734",
             "team": "Sazzadhusen",
-            "technologies": ["IOS","React Native"],
+            "technologies": [2,4],
             "hometown": "Modasa"
         },
         {
@@ -184,12 +184,12 @@
             "employeeID": "AT0121",
             "firstName": "Shashank",
             "lastName": "Adhatrao",
-            "photoUrl": "assets/Images/Shashank.jpg",
+            "photoUrl": "assets/images/Shashank.jpg",
             "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "shashanka.albiorix@gmail.com",
             "mobile": "+91-9104077165",
-            "technologies": ["Flutter","Android"],
+            "technologies": [3,1],
             "hometown": "Ratnagiri"
         },
         {
@@ -197,12 +197,12 @@
             "employeeID": "AT0007",
             "firstName": "Sheetal",
             "lastName": "Rathod",
-            "photoUrl": "assets/Images/sheetal mam.jpg",
+            "photoUrl": "assets/images/sheetal mam.jpg",
             "designation": "Project Manager",
             "location": "Ahmedabad",
             "email": "sheetal.albiorix@gmail.com",
             "mobile": "+91-9909789956",
-            "technologies": ["Flutter","Android","IOS","KMM","React Native"],
+            "technologies": [1,2,3,4,5],
             "hometown": "Surat"
         },
         {
@@ -210,13 +210,13 @@
             "employeeID": "AT0073",
             "firstName": "Sohan",
             "lastName": "Bhadra",
-            "photoUrl": "assets/Images/Sohan.jpg",
-            "designation": "Software Engineer(Android/Flutter)",
+            "photoUrl": "assets/images/Sohan.jpg",
+            "designation": "Software Engineer",
             "location": "Ahmedabad",
             "email": "sohanb.albiorix@gmail.com",
             "mobile": "+91-9662935949",
             "team":"Sohan",
-            "technologies": ["Flutter","Android","IOS","KMM","React Native"],
+            "technologies": [1,2,3,4,5],
             "hometown": "Jamnagar"
         }
     ]
